@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -5,4 +7,60 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: Nothing You Could Do, sans-serif;
+    background: silver;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    margin: 10px 30%;
+
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+    .image-container {
+        margin: 10px;
+    }
 }
