@@ -1,2 +1,4 @@
 # iNspiration
-Great photos to inspire you!
+Great photo gallery to inspire you!
+Check it online! 
+https://adrian-fur.github.io/iNspiration/
